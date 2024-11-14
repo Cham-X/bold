@@ -14,7 +14,8 @@ export default {
       },
       colors: {
         darkgray: "#0A2640",
-        bggreen:"#65E4A3",
+        bggreen: "#65E4A3",
+        gray:"#777777",
       },
     },
   },
