@@ -17,6 +17,26 @@ export default {
         bggreen: "#65E4A3",
         gray:"#777777",
       },
+       keyframes: {
+        fadeInUp: {
+          '0%': { opacity: "0", transform: 'translateY(20px)' },
+          '100%': { opacity: '1', transform: 'translateY(0)' },
+        },
+        fadeIn: {
+          '0%': { opacity: '0' },
+          '100%': { opacity: '1' },
+        },
+        slideInRight: {
+          '0%': { opacity: '0', transform: 'translateX(20px)' },
+          '100%': { opacity: '1', transform: 'translateX(0)' },
+        },
+      },
+      
+      animation: {
+        fadeInUp: 'fadeInUp 0.5s ease-out forwards',
+        fadeIn: 'fadeIn 0.5s ease-out forwards',
+        slideInRight: 'slideInRight 0.5s ease-out forwards',
+      },
     },
   },
   plugins: [],

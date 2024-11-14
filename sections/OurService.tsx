@@ -108,12 +108,10 @@ const OurService = () => {
           width={444}
           height={692}
           alt="Illustration"
-          className="rounded-lg shadow-lg"
         />
       </div>
       </div>
       
-
     </section>
   );
 };
