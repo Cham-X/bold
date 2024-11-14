@@ -8,8 +8,8 @@ const Hero = () => {
     <div className='text-white bg-darkgray min-h-screen flex flex-col items-center px-6 py-8 md:px-12 lg:px-20 pt-[10rem]'>
       <div className='flex flex-col-reverse md:flex-row items-center justify-between gap-8 w-full'>
         {/* Text Section */}
-        <div className='max-w-[567px] flex flex-col gap-4 text-center md:text-left'>
-          <h1 className='text-4xl md:text-5xl lg:text-6xl leading-tight'>
+        <div className=' flex flex-col gap-4 text-center md:text-left'>
+          <h1 className='text-4xl md:text-5xl lg:text-6xl leading-tight '>
             Save time by building <br className='hidden md:block' /> fast with Boldo Template
           </h1>
           <p className='text-md md:text-lg'>
@@ -18,7 +18,7 @@ const Hero = () => {
           <div className='flex gap-4 items-center justify-center md:justify-start'>
             <Button
               content='Buy template'
-              className=' text-darkgray px-6 py-2 bg-green'
+              className=' text-darkgray px-6 py-2 bg-bggreen'
             />
             <Button
               content='Explore'

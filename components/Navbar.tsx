@@ -38,7 +38,7 @@ const Navbar = () => {
           <Link href="/services" className="hover:text-gray-300 dark:hover:text-gray-500">
             About
           </Link>
-          <Button className="bg-green text-darkgray px-4 py-2" content="Login" />
+          <Button className="bg-bggreen text-darkgray px-6 py-2" content="Login" />
         </div>
 
         {/* Mobile Menu Toggle Button */}
@@ -59,7 +59,8 @@ const Navbar = () => {
 
         {/* Mobile Navigation Menu */}
         {isOpen && (
-          <div className="md:hidden absolute top-16 left-0 w-full bg-darkgray text-white dark:text-darkgray px-6 py-4 flex flex-col space-y-4 shadow-lg transition-transform duration-300">
+          <div className={`md:hidden absolute top-16 left-0 w-full bg-darkgray text-white dark:text-darkgray px-6 py-4 flex flex-col space-y-4 shadow-lg  ${ isOpen ? "fade-in" : "fade-out"
+          }`}>
             <Link href="/home" onClick={toggleMenu} className="hover:text-gray-300 dark:hover:text-gray-500">
               Product
             </Link>
@@ -69,7 +70,7 @@ const Navbar = () => {
             <Link href="/services" onClick={toggleMenu} className="hover:text-gray-300 dark:hover:text-gray-500">
               About
             </Link>
-            <Button className="bg-green text-darkgray px-4 py-2" content="Login" onClick={toggleMenu} />
+            <Button className="bg-bggreen text-darkgray px-4 py-2" content="Login" onClick={toggleMenu} />
           </div>
         )}
       </nav>

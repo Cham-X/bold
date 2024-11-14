@@ -5,7 +5,7 @@ import OurService from "@/sections/OurService";
 
 export default function Home() {
   return (
-    <div className="bg-blue-700 flex flex-col">
+    <div className="flex flex-col">
       <Hero />
       <OurService />
       <OurBlog />

@@ -9,6 +9,9 @@ export default {
   ],
   theme: {
     extend: {
+         fontFamily: {
+        manrope: ['Manrope', 'sans-serif'],  // Add the Manrope font here
+      },
       colors: {
         darkgray: "#0A2640",
         bggreen:"#65E4A3",
