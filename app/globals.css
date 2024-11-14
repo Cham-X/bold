@@ -2,3 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  color-scheme: light dark;
+}
+
+/* Continuous scrolling animation */
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.overflow-hidden {
+  width: 100%;
+  position: relative;
+}
+
+.animate-scroll {
+  display: flex;
+  animation: scroll 50s linear infinite;
+}
+
