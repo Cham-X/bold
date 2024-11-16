@@ -32,13 +32,13 @@ const Navbar = () => {
           <Link href="/home" className="hover:text-gray-300 dark:hover:text-gray-500">
             Product
           </Link>
-          <Link href="/about" className="hover:text-gray-300 dark:hover:text-gray-500">
+          <Link href="/service" className="hover:text-gray-300 dark:hover:text-gray-500">
             Services
           </Link>
-          <Link href="/services" className="hover:text-gray-300 dark:hover:text-gray-500">
+          <Link href="/about" className="hover:text-gray-300 dark:hover:text-gray-500">
             About
           </Link>
-          <Button className="bg-bggreen text-darkgray px-6 py-2" content="Login" />
+          <Button className="bg-white text-darkgray px-6 py-2" content="Login" />
         </div>
 
         {/* Mobile Menu Toggle Button */}
@@ -64,13 +64,13 @@ const Navbar = () => {
             <Link href="/home" onClick={toggleMenu} className="hover:text-gray-300 dark:hover:text-gray-500">
               Product
             </Link>
-            <Link href="/about" onClick={toggleMenu} className="hover:text-gray-300 dark:hover:text-gray-500">
+            <Link href="/services" onClick={toggleMenu} className="hover:text-gray-300 dark:hover:text-gray-500">
               Services
             </Link>
-            <Link href="/services" onClick={toggleMenu} className="hover:text-gray-300 dark:hover:text-gray-500">
+            <Link href="/about" onClick={toggleMenu} className="hover:text-gray-300 dark:hover:text-gray-500">
               About
             </Link>
-            <Button className="bg-bggreen text-darkgray px-4 py-2" content="Login" onClick={toggleMenu} />
+            <Button className="bg-white text-darkgray px-4 py-2" content="Login" onClick={toggleMenu} />
           </div>
         )}
       </nav>
