@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className="font-manrope"
+        className="font-manrope bg-white"
       >
         <Navbar/>
         {children}
