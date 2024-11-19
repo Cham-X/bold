@@ -42,10 +42,6 @@ const Button: React.FC<ButtonProps> = ({
         focus:ring-opacity-75 
         ${disabled ? 'opacity-50 cursor-not-allowed' : ''}
       `}
-    //   style={{
-    //     backgroundColor: backgroundColor.startsWith('#') ? backgroundColor : undefined,
-    //     color: textColor.startsWith('#') ? textColor : undefined,
-    //   }}
     >
       {content}
     </button>

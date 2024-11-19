@@ -72,7 +72,6 @@ const OurService = () => {
       </div>
       
  <div className="flex flex-col md:flex-row items-center justify-between gap-8  px-6 lg:px-20">
-      {/* Text and Features */}
       <div className="flex flex-col gap-6 items-start justify-center w-full md:max-w-[50%]">
         <h1 className="text-3xl md:text-4xl lg:text-5xl leading-snug lg:leading-tight text-center md:text-left animate-fadeInUp">
           We connect our customers with the best, and help them keep up-and stay open.

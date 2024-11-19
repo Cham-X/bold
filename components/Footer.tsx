@@ -23,7 +23,7 @@ const Footer = () => {
   ];
 
   return (
-    <div className='px-6 py-8 md:px-12'>
+    <div className='px-6 py-12 md:px-12'>
       <div className="bg-darkgray p-6 md:p-12 rounded-lg flex flex-col text-white items-center justify-center gap-8 md:gap-12 mb-8">
 
   <h1 className="text-2xl md:text-5xl leading-tight text-center max-w-[90%] md:w-[65%]">

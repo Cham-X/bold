@@ -13,7 +13,7 @@ const OurStory = () => {
  <div className="flex flex-col items-center justify-between gap-12 bg-darkgray text-xl text-white py-16 px-6 lg:px-20">
               <p>Our numbers</p>
               <h1 className='text-center text-3xl md:text-5xl max-w-[70%]'>Handshake infographic mass market crowdfunding iteration.</h1>
-              <div className='flex gap-4 items-center justify-between w-full'>
+              <div className='flex gap-4 flex-wrap items-center justify-between w-full'>
                   <div className='flex flex-col items-start justify-start gap-4'>
                       <h1 className='text-8xl text-lightgreen'>120m</h1>
                       <p>Cool feature title</p>
